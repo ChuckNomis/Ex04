@@ -1,0 +1,7 @@
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus. Interfaces\obj\Debug\Ex04.Menus.Interfaces.csproj.AssemblyReference.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus. Interfaces\obj\Debug\Ex04.Menus.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus. Interfaces\bin\Debug\Ex04.Menus.Interfaces.dll.config
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus. Interfaces\bin\Debug\Ex04.Menus.Interfaces.dll
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus. Interfaces\bin\Debug\Ex04.Menus.Interfaces.pdb
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus. Interfaces\obj\Debug\Ex04.Menus.Interfaces.dll
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus. Interfaces\obj\Debug\Ex04.Menus.Interfaces.pdb

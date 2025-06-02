@@ -1,0 +1,11 @@
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\obj\Debug\Ex04.Menus.Test.csproj.AssemblyReference.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\obj\Debug\Ex04.Menus.Test.csproj.CoreCompileInputs.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Test.exe.config
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Test.exe
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Test.pdb
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Interfaces.dll
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Interfaces.pdb
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\bin\Debug\Ex04.Menus.Interfaces.dll.config
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\obj\Debug\Ex04.Men.94AED04F.Up2Date
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\obj\Debug\Ex04.Menus.Test.exe
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Test\obj\Debug\Ex04.Menus.Test.pdb

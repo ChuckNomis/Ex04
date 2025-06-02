@@ -1,0 +1,7 @@
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Events\bin\Debug\Ex04.Menus.Events.dll.config
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Events\bin\Debug\Ex04.Menus.Events.dll
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Events\bin\Debug\Ex04.Menus.Events.pdb
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Events\obj\Debug\Ex04.Menus.Events.csproj.AssemblyReference.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Events\obj\Debug\Ex04.Menus.Events.csproj.CoreCompileInputs.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Events\obj\Debug\Ex04.Menus.Events.dll
+C:\Users\almog\OneDrive\Documents\GitHub\Ex04\Ex04\Ex04.Menus.Events\obj\Debug\Ex04.Menus.Events.pdb
