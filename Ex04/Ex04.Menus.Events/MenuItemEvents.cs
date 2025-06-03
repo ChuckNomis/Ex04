@@ -6,29 +6,29 @@ using System.Threading.Tasks;
 
 namespace Ex04.Menus.Events
 {
-    internal class MenuItem
+    public class MenuItemEvents
     {
         public string m_title { get; }
-        private readonly List<MenuItem> r_subItems;
+        private readonly List<MenuItemEvents> r_subItems;
         private readonly Action r_action;
 
-        public IReadOnlyList<MenuItem> SubItems => r_subItems.AsReadOnly();
+        public IReadOnlyList<MenuItemEvents> SubItems => r_subItems.AsReadOnly();
         public bool HasSubItems => r_subItems.Count > 0;
-        public MenuItem Parent { get; private set; }
+        public MenuItemEvents Parent { get; private set; }
 
-        public MenuItem(string i_Title)
+        public MenuItemEvents(string i_Title)
         {
             m_title = i_Title;
-            r_subItems = new List<MenuItem>();
+            r_subItems = new List<MenuItemEvents>();
         }
 
-        public MenuItem(string i_Title, Action i_Action)
+        public MenuItemEvents(string i_Title, Action i_Action)
             : this(i_Title)
         {
             r_action = i_Action;
         }
 
-        public void AddSubItem(MenuItem i_SubItem)
+        public void AddSubItem(MenuItemEvents i_SubItem)
         {
             i_SubItem.Parent = this;
             r_subItems.Add(i_SubItem);

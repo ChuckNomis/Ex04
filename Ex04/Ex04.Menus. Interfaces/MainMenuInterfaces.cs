@@ -8,7 +8,7 @@ using Ex04.Menus.Interfaces;
 
 namespace Ex04.Menus.Interfaces
 {
-    public class MainMenu
+    public class MainMenuInterfaces
     {
         private readonly string r_TitleName; 
         public string TitleName
@@ -16,22 +16,22 @@ namespace Ex04.Menus.Interfaces
             get { return r_TitleName; }
         }
 
-        private readonly List<MenuItem> r_RootMain; 
-        public MainMenu (string i_TitleName)
+        private readonly List<MenuItemInterfaces> r_RootMain; 
+        public MainMenuInterfaces (string i_TitleName)
         {
             r_TitleName = i_TitleName;
-            r_RootMain = new List<MenuItem>();
+            r_RootMain = new List<MenuItemInterfaces>();
         }
-        public void AddMenuItem(MenuItem i_Item)
+        public void AddMenuItem(MenuItemInterfaces i_Item)
         {
             r_RootMain.Add(i_Item);
         }
 
         public void ShowMenu()
         {
-            Stack<MenuItem> menuStack = new Stack<MenuItem>();
+            Stack<MenuItemInterfaces> menuStack = new Stack<MenuItemInterfaces>();
 
-            MenuItem root = new MenuItem(r_TitleName);
+            MenuItemInterfaces root = new MenuItemInterfaces(r_TitleName);
             foreach (var item in r_RootMain)
             {
                 root.AddSubItem(item);
@@ -41,7 +41,7 @@ namespace Ex04.Menus.Interfaces
 
             while (menuStack.Count > 0)
             {
-                MenuItem current = menuStack.Peek();
+                MenuItemInterfaces current = menuStack.Peek();
                 Console.Clear();
                 Console.WriteLine($"** {current.Title} **");
                 Console.WriteLine("--------------------");
@@ -69,7 +69,7 @@ namespace Ex04.Menus.Interfaces
                         throw new ArgumentOutOfRangeException();
                     }
 
-                    MenuItem selected = current.SubItems[choice - 1];
+                    MenuItemInterfaces selected = current.SubItems[choice - 1];
 
                     if (selected.IsLeaf)
                     {

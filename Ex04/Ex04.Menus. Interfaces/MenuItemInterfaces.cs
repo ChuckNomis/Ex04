@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace Ex04.Menus.Interfaces
 {
-    public class MenuItem
+    public class MenuItemInterfaces
     {
         private readonly string r_Title;
         private readonly IMenuItemExecutable r_Action;
-        private readonly List<MenuItem> r_SubItems = new List<MenuItem>();
+        private readonly List<MenuItemInterfaces> r_SubItems = new List<MenuItemInterfaces>();
 
-        public MenuItem (string i_Title, IMenuItemExecutable i_Action = null)
+        public MenuItemInterfaces (string i_Title, IMenuItemExecutable i_Action = null)
         {
             r_Title = i_Title;
             r_Action = i_Action;
@@ -30,12 +30,12 @@ namespace Ex04.Menus.Interfaces
             get { return r_Action; }
         }
 
-        public List<MenuItem> SubItems
+        public List<MenuItemInterfaces> SubItems
         {
             get{return r_SubItems;}
         }
 
-        public void AddSubItem(MenuItem i_SubItem)
+        public void AddSubItem(MenuItemInterfaces i_SubItem)
         {
             if (IsLeaf)
             {

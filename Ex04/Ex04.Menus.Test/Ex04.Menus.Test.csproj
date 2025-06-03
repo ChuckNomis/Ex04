@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CountLowercaseLetters.cs" />
+    <Compile Include="DelegatesFunctions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ShowCurrentDate.cs" />
     <Compile Include="ShowCurrentTime.cs" />
@@ -46,6 +47,10 @@
     <ProjectReference Include="..\Ex04.Menus. Interfaces\Ex04.Menus.Interfaces.csproj">
       <Project>{07ee5cd7-3212-4694-85e6-5df6595ca9ad}</Project>
       <Name>Ex04.Menus.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ex04.Menus.Events\Ex04.Menus.Events.csproj">
+      <Project>{82c0143d-73de-49f8-b67a-385b56d3f205}</Project>
+      <Name>Ex04.Menus.Events</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

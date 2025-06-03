@@ -2,16 +2,16 @@
 
 namespace Ex04.Menus.Events
 {
-    internal class MainMenu
+    public class MainMenuEvents
     {
-        private readonly MenuItem r_RootMenu;
+        private readonly MenuItemEvents r_RootMenu;
 
-        public MainMenu(string i_Title)
+        public MainMenuEvents(string i_Title)
         {
-            r_RootMenu = new MenuItem(i_Title);
+            r_RootMenu = new MenuItemEvents(i_Title);
         }
 
-        public void AddMenuItem(MenuItem i_Item)
+        public void AddMenuItem(MenuItemEvents i_Item)
         {
             r_RootMenu.AddSubItem(i_Item);
         }
@@ -21,7 +21,7 @@ namespace Ex04.Menus.Events
             navigateMenu(r_RootMenu);
         }
 
-        private void navigateMenu(MenuItem i_CurrentMenu)
+        private void navigateMenu(MenuItemEvents i_CurrentMenu)
         {
             while (true)
             {
@@ -55,7 +55,7 @@ namespace Ex04.Menus.Events
                         return;
                 }
 
-                MenuItem selectedItem = i_CurrentMenu.SubItems[choice - 1];
+                MenuItemEvents selectedItem = i_CurrentMenu.SubItems[choice - 1];
 
                 if (selectedItem.HasSubItems)
                 {
